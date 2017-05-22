@@ -4,4 +4,4 @@ openapi_redoc.jsonapi:
     _controller: '\Drupal\openapi_redoc\Controller\DocController::generateDocs'
     _title: 'JSON API Documentation'
   requirements:
-    _access: 'access openapi api docs'
+    _permission: 'access openapi api docs'
